@@ -1,0 +1,23 @@
+{
+  "name": "learn-sass-flexbox-and-grid",
+  "version": "1.0.0",
+  "description": "this is a projet to read about flexbox , sass , css and web in general",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndemeyvan/learn-sass-flexbox-and-grid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndemeyvan/learn-sass-flexbox-and-grid/issues"
+  },
+  "homepage": "https://github.com/ndemeyvan/learn-sass-flexbox-and-grid#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
