@@ -11,6 +11,9 @@ $color-primary :#55c57a;
 $color-primary-light :#7ed56f;
 $color-primary-dark :#28b485;
 
+$color-grey-dark : #777;
+$color-white : #fff;
+
 
 
 *,
@@ -30,7 +33,7 @@ body {
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: #777;
+  color: $color-grey-dark;
   padding: 3rem;
   box-sizing: border-box;
 }
@@ -70,7 +73,7 @@ body {
 }
 
 .heading-primary {
-  color: white;
+  color: $color-white ;
   text-transform: uppercase;
   margin-bottom: 4.6rem;
 }
@@ -153,8 +156,8 @@ body {
 }
 
 .btn--white {
-  background-color: white;
-  color: #777;
+  background-color: $color-white ;
+  color: $color-grey-dark;
 }
 
 @keyframes moveInBottom {
@@ -184,7 +187,7 @@ body {
 }
 
 .btn--white::after {
-  background-color: #fff;
+  background-color: $color-white ;
 }
 
 .btn:hover::after {
