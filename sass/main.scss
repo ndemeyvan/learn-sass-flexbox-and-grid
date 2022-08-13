@@ -1,18 +1,17 @@
 
 // Absctract
-@import "/sass/abstract/functions";
-@import "/sass/abstract/mixins";
-@import "/sass/abstract/variables";
-
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";
 // Base
-@import "/sass/base/base";
-@import "/sass/base/animation";
-@import "/sass//base/typographie";
-@import "/sass/base/utilities";
-
+@import "base/base";
+@import "base/animation";
+@import "base/typographie";
+@import "base/utilities";
 // Components
-@import "/sass/components/button";
-@import "/sass/components/header";
-
+@import "components/button";
+//Layout
+@import "layouts/grid";
+@import "layouts/header";
 // Pages
-@import "/sass/pages/home";
+@import "pages/home";
